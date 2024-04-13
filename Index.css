@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+  }
+  
+
+  body {
+    font-family: Arial;
+    padding: 20px;
+    background: #f1f1f1;
+  }
+  
+
+  .header {
+    padding: 30px;
+    font-size: 40px;
+    text-align: center;
+    background: white;
+  }
+  
+
+  
+
+
+  .img {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+  }
+  
+
+  .card {
+     background-color: white;
+     padding: 20px;
+     margin-top: 20px;
+  }
+  
+
+  @media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {   
+      width: 100%;
+      padding: 0;
+    }
+  }
+
+
+  .Directory{width: 100px; 
+    height: 100px; 
+    padding: 0.5em;
+     float: left; 
+     margin: 10px 10px 10px 0; 
+     outline: auto;
+    text-align: center;
+    outline-color: black;
+    } 
+
+
+
